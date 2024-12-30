@@ -16,7 +16,6 @@ const Search = () => {
   );
 
   const handleSearch = (text: string) => {
-    // Navigate to the results page with the query parameter
     setSearch(text);
     debounceSearch(text);
   };
