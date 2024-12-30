@@ -44,7 +44,7 @@ const Signin = () => {
             <Text className="text-primary-300">Your Ideal Home</Text>
           </Text>
           <Text className="text-lg font-rubik text-center mt-10 text-black-200">
-            Login to Emeral key with google
+            Login to key State with google
           </Text>
           <TouchableOpacity
             onPress={handleLogin}
